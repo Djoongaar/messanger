@@ -8,3 +8,12 @@ INFO       2020-01-29 10:53:03,319 Сработала функция: process_cl
 INFO       2020-01-29 11:52:21,780 Сервер запущен на порту 8888
 INFO       2020-01-29 11:52:49,076 Новое сообщение от клиента: {'action': 'presence', 'time': 1580287969.0761144, 'user': {'account_name': 'Guest'}}
 INFO       2020-01-29 11:52:49,076 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580287969.0761144, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:01:34,822 Новое сообщение от клиента: {'action': 'presence', 'time': 1580288494.821671, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:01:34,824 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580288494.821671, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:13:33,426 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289213.426756, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:13:33,426 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289213.426756, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:13:58,485 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289238.4847493, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:13:58,485 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289238.4847493, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:14:26,468 Сервер запущен на порту 8888
+INFO       2020-01-29 12:15:03,602 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289303.6028907, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:15:03,602 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289303.6028907, 'user': {'account_name': 'Guest'}},), {}

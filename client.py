@@ -4,14 +4,14 @@ import time
 import socket
 import logging
 from log import client_log_config
-from decorators import log
+from decorators import Log
 from common.settings import DEFAULT_PORT, ACTION, PRESENCE, TIME, ACCOUNT_NAME, USER, RESPONSE, ERROR, \
     DEFAULT_IP_ADDRESS
 from common.utils import get_and_print_message, encode_and_send_message
 LOG = logging.getLogger('client')
 
 
-@log
+@Log()
 def make_presence_message(account_name='Guest'):
     """
     Функция генерирует запрос на сервер о присутствии клиента
@@ -28,7 +28,7 @@ def make_presence_message(account_name='Guest'):
     return out
 
 
-@log
+@Log()
 def process_answer(message):
     """
     Функция разбирает ответ сервера
@@ -45,7 +45,7 @@ def process_answer(message):
     return ValueError
 
 
-@log
+@Log()
 def main():
     """
     Загружаем параметры командной строки

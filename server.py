@@ -3,7 +3,7 @@ import sys
 import socket
 import logging
 from log import server_log_config
-from log.server_log_config import log
+from decorators import log
 from common.settings import DEFAULT_PORT, MAX_CONNECTIONS, PRESENCE, ACTION, USER, TIME, \
     ACCOUNT_NAME, RESPONSE, ERROR
 from common.utils import get_and_print_message, encode_and_send_message

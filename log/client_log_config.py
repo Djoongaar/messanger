@@ -30,11 +30,3 @@ LOG.addHandler(FILE_HAND)  # и для записи в файл
 # Устанавливаю уровень важности "Регистратору"
 # Уровень важности "Регистратора" выше чем уровень важности "Обрботчика"
 LOG.setLevel(DEBUG)
-
-
-def log(func):
-    def wrapper(*args, **kwargs):
-        res = func(*args, **kwargs)
-        LOG.info(f"Сработала функция: {func.__name__} со следующими аргументами: {args}, {kwargs}")
-        return res
-    return wrapper

@@ -4,7 +4,7 @@ import time
 import socket
 import logging
 from log import client_log_config
-from log.client_log_config import log
+from decorators import log
 from common.settings import DEFAULT_PORT, ACTION, PRESENCE, TIME, ACCOUNT_NAME, USER, RESPONSE, ERROR, \
     DEFAULT_IP_ADDRESS
 from common.utils import get_and_print_message, encode_and_send_message

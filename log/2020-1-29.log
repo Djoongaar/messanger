@@ -17,3 +17,14 @@ INFO       2020-01-29 12:13:58,485 Сработала функция: process_cl
 INFO       2020-01-29 12:14:26,468 Сервер запущен на порту 8888
 INFO       2020-01-29 12:15:03,602 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289303.6028907, 'user': {'account_name': 'Guest'}}
 INFO       2020-01-29 12:15:03,602 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289303.6028907, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:22:41,826 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289761.825585, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:22:41,826 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289761.825585, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:22:59,773 Сервер запущен на порту 8888
+INFO       2020-01-29 12:23:06,365 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289786.3653872, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:23:06,365 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289786.3653872, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:24:01,467 Сервер запущен на порту 8888
+INFO       2020-01-29 12:24:04,976 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289844.9757628, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:24:04,976 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289844.9757628, 'user': {'account_name': 'Guest'}},), {}
+INFO       2020-01-29 12:24:33,652 Сервер запущен на порту 8888
+INFO       2020-01-29 12:24:36,277 Новое сообщение от клиента: {'action': 'presence', 'time': 1580289876.2778652, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-29 12:24:36,277 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580289876.2778652, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__

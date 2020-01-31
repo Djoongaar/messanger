@@ -1,0 +1,78 @@
+INFO       2020-01-31 09:44:24,013 Сервер запущен на порту 8888
+INFO       2020-01-31 09:44:32,821 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453072.81975, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:44:32,822 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453072.81975, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:44:32,823 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,823 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,823 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:44:32,824 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,476 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453156.4744346, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:45:56,476 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453156.4744346, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:45:56,477 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,477 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,477 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:45:56,477 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,470 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453210.4689052, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:46:50,470 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453210.4689052, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:46:50,470 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,471 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,471 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:46:50,471 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,897 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453232.8944235, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:47:12,897 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453232.8944235, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:47:12,897 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,898 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,898 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:47:12,898 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,155 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453308.1537874, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:48:28,155 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453308.1537874, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:28,156 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,156 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,156 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:48:28,157 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,903 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453336.9001875, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:48:56,903 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453336.9001875, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:56,904 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,905 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,905 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:48:56,905 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,539 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453359.5360591, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:49:19,539 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453359.5360591, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:19,541 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,541 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,543 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:49:19,543 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,772 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453364.7703037, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:49:24,772 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453364.7703037, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:24,773 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,773 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,773 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/server.py", line 82, in main
+    response = process_client_message(message_from_client)
+
+INFO       2020-01-31 09:49:24,774 Функция была вызвана из None
+INFO       2020-01-31 09:50:04,541 Сервер запущен на порту 8888
+INFO       2020-01-31 09:50:15,652 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453415.6496122, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:50:15,652 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453415.6496122, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:50:15,653 Функция была вызвана из  in <module>
+    main()
+INFO       2020-01-31 09:51:19,339 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453479.3377318, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:51:19,339 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453479.3377318, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:51:19,340 Функция была вызвана из  in <module>
+    main()
+INFO       2020-01-31 09:52:56,279 Сервер запущен на порту 8888
+INFO       2020-01-31 09:53:00,881 Новое сообщение от клиента: {'action': 'presence', 'time': 1580453580.8796983, 'user': {'account_name': 'Guest'}}
+INFO       2020-01-31 09:53:00,881 Сработала функция: process_client_message со следующими аргументами: ({'action': 'presence', 'time': 1580453580.8796983, 'user': {'account_name': 'Guest'}},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:53:00,882 Функция была вызвана из модуля main()

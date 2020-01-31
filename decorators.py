@@ -17,8 +17,7 @@ def log(func):
         LOG.info(f"Сработала функция: {func.__name__} со следующими аргументами: {args}, {kwargs}. "
                  f"Вызов из модуля {func.__module__}")
         stack = traceback.format_stack()
-        for line in range(len(stack)):
-            LOG.info(f"Функция была вызвана из {(stack[line]) if line == len(stack) - 2 else None}")
+        LOG.info(f"Функция была вызвана из модуля {stack[0].strip().split()[-1]}")
         return res
     return wrapper
 
@@ -31,7 +30,6 @@ class Log:
             LOG.info(f"Сработала функция: {func.__name__} со следующими аргументами: {args}, {kwargs}. "
                      f"Вызов из модуля {func.__module__}")
             stack = traceback.format_stack()
-            for line in range(len(stack)):
-                LOG.info(f"Функция была вызвана из {(stack[line]) if line == len(stack) - 2 else None}")
+            LOG.info(f"Функция была вызвана из модуля {stack[0].strip().split()[-1]}")
             return res
         return decorator

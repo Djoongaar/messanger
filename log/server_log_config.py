@@ -9,7 +9,7 @@ from logging import getLogger, Formatter, StreamHandler, DEBUG, INFO, FileHandle
 # сегодня убедился в правильности работы функции - создался файл от 29 января
 def get_log_file_name():
     t = datetime.now()
-    return f"log/server_{t.year}_{t.month}_{t.day}.log"
+    return f"log/logfiles/server_{t.year}_{t.month}_{t.day}.log"
 
 
 # Создаю логгер - "Регистратор" верхнего уровня

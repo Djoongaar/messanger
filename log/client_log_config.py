@@ -8,7 +8,7 @@ LOG = getLogger('client')
 
 # Создаем "Обработчик" выводящий сообщения в stderr (красный текст в консоли)
 STREAM_HAND = StreamHandler(sys.stderr)
-FILE_HAND = FileHandler("log/client.log", encoding='utf-8')
+FILE_HAND = FileHandler("log/logfiles/client.log", encoding='utf-8')
 
 # Устанавливаю уровень важности "Обработчику"
 STREAM_HAND.setLevel(DEBUG)  # выводит логи в стандартный поток ошибок

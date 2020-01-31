@@ -237,3 +237,204 @@ INFO       2020-01-29 14:34:13,653 Функция была вызвана из  
     main()
 
 INFO       2020-01-29 14:34:13,653 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,819 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:44:32,821 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,821 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,821 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:44:32,821 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,824 200: OK
+INFO       2020-01-31 09:44:32,824 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:44:32,825 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,825 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,825 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:44:32,825 Функция была вызвана из None
+INFO       2020-01-31 09:44:32,825 answer: 200: OK
+INFO       2020-01-31 09:44:32,826 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:44:32,826 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:44:32,826 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,474 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:45:56,475 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,475 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,476 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:45:56,476 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,478 200: OK
+INFO       2020-01-31 09:45:56,478 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:45:56,478 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,478 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,478 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:45:56,479 Функция была вызвана из None
+INFO       2020-01-31 09:45:56,479 answer: 200: OK
+INFO       2020-01-31 09:45:56,479 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:45:56,479 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:45:56,480 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,468 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:46:50,469 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,469 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,469 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:46:50,469 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,471 200: OK
+INFO       2020-01-31 09:46:50,471 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:46:50,472 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,472 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,472 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:46:50,472 Функция была вызвана из None
+INFO       2020-01-31 09:46:50,472 answer: 200: OK
+INFO       2020-01-31 09:46:50,472 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:46:50,473 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:46:50,473 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,894 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:47:12,896 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,896 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,896 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:47:12,896 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,898 200: OK
+INFO       2020-01-31 09:47:12,898 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:47:12,899 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,899 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,899 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:47:12,899 Функция была вызвана из None
+INFO       2020-01-31 09:47:12,899 answer: 200: OK
+INFO       2020-01-31 09:47:12,900 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:47:12,901 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:47:12,901 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,153 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:28,154 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,154 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,154 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:48:28,154 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,157 200: OK
+INFO       2020-01-31 09:48:28,157 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:28,158 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,158 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,158 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:48:28,158 Функция была вызвана из None
+INFO       2020-01-31 09:48:28,158 answer: 200: OK
+INFO       2020-01-31 09:48:28,159 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:28,160 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:48:28,161 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,900 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:56,902 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,902 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,902 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:48:56,902 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,906 200: OK
+INFO       2020-01-31 09:48:56,906 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:56,906 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,907 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,907 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:48:56,907 Функция была вызвана из None
+INFO       2020-01-31 09:48:56,907 answer: 200: OK
+INFO       2020-01-31 09:48:56,908 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:48:56,908 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:48:56,909 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,536 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:19,538 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,538 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,539 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:49:19,539 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,544 200: OK
+INFO       2020-01-31 09:49:19,544 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:19,545 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,545 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,545 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:49:19,545 Функция была вызвана из None
+INFO       2020-01-31 09:49:19,546 answer: 200: OK
+INFO       2020-01-31 09:49:19,546 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:19,547 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:49:19,547 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,770 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:24,771 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,771 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,772 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 72, in main
+    MSG_TO_SERV = make_presence_message()
+
+INFO       2020-01-31 09:49:24,772 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,774 200: OK
+INFO       2020-01-31 09:49:24,774 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:24,775 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,775 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,775 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 75, in main
+    answer = process_answer(get_and_print_message(TRANSP))
+
+INFO       2020-01-31 09:49:24,776 Функция была вызвана из None
+INFO       2020-01-31 09:49:24,776 answer: 200: OK
+INFO       2020-01-31 09:49:24,776 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:49:24,777 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:49:24,777 Функция была вызвана из None
+INFO       2020-01-31 09:50:15,649 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:50:15,651 Функция была вызвана из  in <module>
+    main()
+INFO       2020-01-31 09:50:15,653 200: OK
+INFO       2020-01-31 09:50:15,654 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:50:15,654 Функция была вызвана из  in <module>
+    main()
+INFO       2020-01-31 09:50:15,654 answer: 200: OK
+INFO       2020-01-31 09:50:15,655 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:50:15,655 Функция была вызвана из  in <module>
+    main()
+INFO       2020-01-31 09:51:19,337 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:51:19,338 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:51:19,340 200: OK
+INFO       2020-01-31 09:51:19,340 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:51:19,340 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:51:19,340 answer: 200: OK
+INFO       2020-01-31 09:51:19,341 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:51:19,341 Функция была вызвана из   File "C:/Users/Evgeny/Documents/Messanger/messanger/client.py", line 83, in <module>
+    main()
+
+INFO       2020-01-31 09:53:00,879 Сработала функция: make_presence_message со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:53:00,880 Функция была вызвана из модуля main()
+INFO       2020-01-31 09:53:00,883 200: OK
+INFO       2020-01-31 09:53:00,883 Сработала функция: process_answer со следующими аргументами: ({'response': 200},), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:53:00,883 Функция была вызвана из модуля main()
+INFO       2020-01-31 09:53:00,883 answer: 200: OK
+INFO       2020-01-31 09:53:00,884 Сработала функция: main со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-01-31 09:53:00,884 Функция была вызвана из модуля main()

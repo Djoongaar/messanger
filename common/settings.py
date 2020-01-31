@@ -10,10 +10,13 @@ ENCODING = 'utf-8'
 
 TIME = 'time'
 USER = 'user'
+SENDER = 'sender'
 ACCOUNT_NAME = 'account_name'
 
 # ключи действий в JIM
 ACTION = 'action'
+MESSAGE = 'message'
+MESSAGE_TEXT = 'message_text'
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'

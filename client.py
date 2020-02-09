@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 import sys
 import time
 import socket
@@ -8,52 +9,44 @@ from log import client_log_config
 from decorators import Log
 from errors import ReqFieldMissingError, ServerError
 from common.settings import DEFAULT_PORT, ACTION, PRESENCE, TIME, ACCOUNT_NAME, USER, RESPONSE, ERROR, \
-    DEFAULT_IP_ADDRESS, MESSAGE, MESSAGE_TEXT, SENDER
+    DEFAULT_IP_ADDRESS, MESSAGE, MESSAGE_TEXT, SENDER, QUIT, DESTINATION
 from common.utils import get_and_print_message, encode_and_send_message
 LOG = logging.getLogger('client')
 
 
-@Log()
-def message_from_server(message):
-    """Функция - обработчик сообщений других пользователей, поступающих с сервера"""
-    if ACTION in message and message[ACTION] == MESSAGE and \
-            SENDER in message and MESSAGE_TEXT in message:
-        print(f'Получено сообщение от пользователя '
-              f'{message[SENDER]}:\n{message[MESSAGE_TEXT]}')
-        LOG.info(f'Получено сообщение от пользователя '
-                 f'{message[SENDER]}:\n{message[MESSAGE_TEXT]}')
-    else:
-        LOG.error(f'Получено некорректное сообщение с сервера: {message}')
+# ============================================= USER ACTIONS =============================================
+
+def print_help():
+    """ СПРАВКА """
+    print('Поддерживаемые команды:')
+    print('message - отправить сообщение.')
+    print('help - вывести подсказки по командам.')
+    print('quit - выход из программы.')
 
 
-@Log()
-def write_message(sock, account_name='Guest'):
-    """Функция запрашивает текст сообщения и возвращает его.
-    Так же завершает работу при вводе подобной комманды
-    """
-    message = input('Введите сообщение для отправки или \'!!!\' для завершения работы: ')
-    if message == '!!!':
-        sock.close()
-        LOG.info('Завершение работы по команде пользователя.')
-        print('Спасибо за использование нашего сервиса!')
-        sys.exit(0)
-    message_dict = {
-        ACTION: MESSAGE,
-        TIME: time.time(),
-        ACCOUNT_NAME: account_name,
-        MESSAGE_TEXT: message
-    }
-    LOG.debug(f'Сформирован словарь сообщения: {message_dict}')
-    return message_dict
+def user_actions(sock, username):
+    """ Взаимодействие с клиентом """
+    print_help()
+    while True:
+        command = input('Введите команду: ')
+        if command == 'message':
+            write_message(sock, username)
+        elif command == 'help':
+            print_help()
+        elif command == 'quit':
+            encode_and_send_message(sock, write_quit_message(username))
+            print('Завершение соединения')
+            LOG.info(f'Завершение работы пользователя {username} по команде exit')
+            time.sleep(1)
+            break
+        else:
+            LOG.debug(f"Ошибка ввода команды пользователем. Команды {command} не существует")
+            print('Команда не распознана, попробойте снова. help - вывести поддерживаемые команды.')
 
 
 @Log()
 def make_presence_message(account_name='Guest'):
-    """
-    Функция генерирует запрос на сервер о присутствии клиента
-    :param account_name: по умолчанию Гость
-    :return:
-    """
+    """ PRESENCE MESSAGE """
     out = {
         ACTION: PRESENCE,
         TIME: time.time(),
@@ -65,12 +58,56 @@ def make_presence_message(account_name='Guest'):
 
 
 @Log()
+def write_message(sock, account_name='Guest'):
+    """ CREATE MESSAGE """
+    to_user = input('Введите имя получателя: ')
+    message = input('Введите сообщение для отправки: ')
+    message_dict = {
+        ACTION: MESSAGE,
+        SENDER: account_name,
+        DESTINATION: to_user,
+        TIME: time.time(),
+        ACCOUNT_NAME: account_name,
+        MESSAGE_TEXT: message
+    }
+    LOG.debug(f'Сформирован словарь сообщения: {message_dict}')
+    try:
+        encode_and_send_message(sock, message_dict)
+        LOG.info(f"Отправлено сообщение для пользователя {to_user}")
+    except:
+        LOG.critical('Потеряно соединение с сервером')
+        sys.exit(1)
+
+
+@Log()
+def write_quit_message(account_name):
+    """ EXIT MESSAGE """
+    return {
+        ACTION: QUIT,
+        TIME: time.time(),
+        ACCOUNT_NAME: account_name
+    }
+
+
+# ======================================== MESSAGE PROCESSING ===========================================
+
+
+@Log()
+def message_from_server(message):
+    """ Функция - обработчик сообщений других пользователей, поступающих с сервера"""
+    if ACTION in message and message[ACTION] == MESSAGE and \
+            SENDER in message and MESSAGE_TEXT in message:
+        print(f'Получено сообщение от пользователя '
+              f'{message[SENDER]}:\n{message[MESSAGE_TEXT]}')
+        LOG.info(f'Получено сообщение от пользователя '
+                 f'{message[SENDER]}:\n{message[MESSAGE_TEXT]}')
+    else:
+        LOG.error(f'Получено некорректное сообщение с сервера: {message}')
+
+
+@Log()
 def process_answer(message):
-    """
-    Функция разбирает ответ сервера
-    :param message:
-    :return:
-    """
+    """ Функция разбирает ответ сервера """
     if RESPONSE in message:
         if message[RESPONSE] == 200:
             LOG.info("200: OK")
@@ -87,11 +124,11 @@ def parse_cmd_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('addr', default=DEFAULT_IP_ADDRESS, nargs='?')
     parser.add_argument('port', default=DEFAULT_PORT, type=int, nargs='?')
-    parser.add_argument('-m', '--mode', default='listen', nargs='?')
+    parser.add_argument('-n', '--name', default='None', nargs='?')
     namespace = parser.parse_args(sys.argv[1:])
     server_address = namespace.addr
     server_port = namespace.port
-    client_mode = namespace.mode
+    client_name = namespace.name
 
     # Проверка номера порта
     if not 1023 < server_port < 65536:
@@ -100,19 +137,20 @@ def parse_cmd_args():
             f'{server_port}. Допустимы адреса с 1024 до 65535.'
         )
         sys.exit(1)
-    if client_mode not in ('listen', 'send'):
-        LOG.critical(f'Указан недопустимый режим работы {client_mode}')
+    if re.fullmatch(r'[a-zA-Z_\-]{2,30}[0-9]+', client_name):
+        LOG.critical(f'Указано недопустимое имя клиента {client_name}')
+        LOG.critical(f'Имя может содержать от 2 до 30 букв английского алфва=ита и не более 10 цифр в конце')
         sys.exit(1)
 
-    return server_address, server_port, client_mode
+    return server_address, server_port, client_name
 
 
 @Log()
 def main():
-    """
-    Загружаем параметры командной строки
-    :return:
-    """
+    """ Загружаем параметры командной строки """
+    print('Консольный месседжер. Клиентский модуль.')
+
+    # Загружаем параметры командной строки
     server_address, server_port, client_mode = parse_cmd_args()
     LOG.info(
         f'Запущен клиент с параметрами: адрес сервера: {server_address}'

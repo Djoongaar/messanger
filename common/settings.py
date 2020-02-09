@@ -12,6 +12,7 @@ TIME = 'time'
 USER = 'user'
 SENDER = 'sender'
 ACCOUNT_NAME = 'account_name'
+DESTINATION = 'to'
 
 # ключи действий в JIM
 ACTION = 'action'

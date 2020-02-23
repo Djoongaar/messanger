@@ -37,7 +37,7 @@ class ServerMaker(type):
             else:
                 # Раз функция разбираем код, получая используемые методы и атрибуты.
                 for i in ret:
-                    print(i)
+                    # print(i)
                     # i - Instruction(opname='LOAD_GLOBAL', opcode=116, arg=9, argval='send_message',
                     # argrepr='send_message', offset=308, starts_line=201, is_jump_target=False)
                     # opname - имя для операции

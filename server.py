@@ -4,15 +4,15 @@ import select
 import sys
 import socket
 import logging
+import threading
 import time
 
 from descriptors import Port, Address
-from log import server_log_config
 from decorators import log
-from common.settings import DEFAULT_PORT, MAX_CONNECTIONS, PRESENCE, ACTION, USER, TIME, \
-    ACCOUNT_NAME, RESPONSE, ERROR, MESSAGE, MESSAGE_TEXT, SENDER, RESPONSE_200, RESPONSE_400, DESTINATION, QUIT
+from common.settings import DEFAULT_PORT, PRESENCE, ACTION, USER, TIME, \
+    ACCOUNT_NAME, ERROR, MESSAGE, MESSAGE_TEXT, SENDER, RESPONSE_200, RESPONSE_400, DESTINATION, QUIT
 from common.utils import get_and_print_message, encode_and_send_message
-from metaclasses import ServerMaker
+from server_db import ServerDatabase
 
 LOG = logging.getLogger('server')
 
@@ -30,17 +30,18 @@ def parse_cmd_args():
     return listen_address, listen_port
 
 
-# class Server:
-class Server(metaclass=ServerMaker):
+class Server(threading.Thread):
     port = Port()
     addr = Address('addr')
 
-    def __init__(self, listen_address, listen_port):
+    def __init__(self, listen_address, listen_port, database):
         self.addr = listen_address
         self.port = listen_port
+        self.database = database
         self.clients = []
         self.messages = []
         self.names = dict()
+        super().__init__()
 
     def init_socket(self):
         """ Инициализируем сокет """
@@ -57,7 +58,6 @@ class Server(metaclass=ServerMaker):
         self.sock = transport
         self.sock.listen()
 
-    @log
     def process_client_message(self, message, client):
         """ Обработчик сообщений от клиентов """
         LOG.info(f'Разбираем сообщение от клиента: {message}')
@@ -67,6 +67,8 @@ class Server(metaclass=ServerMaker):
             # регистрируем, а иначе отправляем 400 и завершаем соединение.
             if message[USER][ACCOUNT_NAME] not in self.names.keys():
                 self.names[message[USER][ACCOUNT_NAME]] = client
+                # client_ip, client_port = client.getpeername()
+                # self.database.login_user(client, client_ip, client_port)
                 encode_and_send_message(client, RESPONSE_200)
             else:
                 response = RESPONSE_400
@@ -86,15 +88,11 @@ class Server(metaclass=ServerMaker):
             del self.names[message[ACCOUNT_NAME]]
             return
         else:
-            # Иначе выкидываем исключение
-            # PARAMS = {'message': message}
-            # LOG.info("Некорректное сообщение от клиента: %(message)s", PARAMS)
             response = RESPONSE_400
             response[ERROR] = 'Запрос некорректен.'
             encode_and_send_message(client, response)
             return
 
-    @log
     def process_message(self, message, listen_socks):
         """ Отправка сообщения определённому клиенту """
         if message[DESTINATION] in self.names and self.names[message[DESTINATION]] in listen_socks:
@@ -108,8 +106,7 @@ class Server(metaclass=ServerMaker):
                 f'Пользователь {message[DESTINATION]} не зарегистрирован на сервере, '
                 f'отправка сообщения невозможна.')
 
-    @log
-    def main_process(self):
+    def run(self):
         # запускаем инициацию сокета
         self.init_socket()
         while True:
@@ -152,13 +149,43 @@ class Server(metaclass=ServerMaker):
             self.messages.clear()
 
 
+def print_help():
+    print('Поддерживаемые комманды:')
+    print('users - список известных пользователей')
+    print('connected - список подключенных пользователей')
+    print('loghist - история входов пользователя')
+    print('exit - завершение работы сервера.')
+    print('help - вывод справки по поддерживаемым командам')
+
+
 def main():
     """ Загрузка параметров командной строки из parse_cmd_args(), или устанавливается значение по умолчанию """
     listen_address, listen_port = parse_cmd_args()
-
+    database = ServerDatabase()
     # создаем экземпляр класса Server()
-    server = Server(listen_address, listen_port)
-    server.main_process()
+    server = Server(listen_address, listen_port, database)
+    server.daemon = True
+    server.start()
+
+    # Основной цикл сервера:
+    while True:
+        command = input('Введите комманду: ')
+        if command == 'help':
+            print_help()
+        elif command == 'exit':
+            break
+        elif command == 'users':
+            for user in sorted(database.all_users()):
+                print(f'Пользователь {user[0]}, последний вход: {user[1]}')
+        elif command == 'connected':
+            for user in sorted(database.all_active_users()):
+                print(f'Пользователь {user[0]}, подключен: {user[1]}:{user[2]}, время установки соединения: {user[3]}')
+        elif command == 'loghist':
+            name = input('Введите имя пользователя для просмотра истории. Для вывода всей истории, просто нажмите Enter: ')
+            for user in sorted(database.all_history()):
+                print(f'Пользователь: {user[0]} время входа: {user[1]}. Вход с: {user[2]}:{user[3]}')
+        else:
+            print('Команда не распознана.')
 
 
 if __name__ == '__main__':

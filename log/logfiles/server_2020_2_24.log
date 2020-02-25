@@ -1,0 +1,375 @@
+INFO       2020-02-24 10:23:57,919 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:23:57,932 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:23:57,935 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 10:23:57,978 Установлено соединение с ПК ('127.0.0.1', 11595)
+INFO       2020-02-24 10:23:58,371 Установлено соединение с ПК ('127.0.0.1', 11593)
+INFO       2020-02-24 10:23:58,376 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582529037.9782856, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 10:23:58,377 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001F369D41488>, {'action': 'presence', 'time': 1582529037.9782856, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 11595)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:23:58,378 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:23:58,379 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582529038.3718634, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 10:23:58,380 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001F369D41488>, {'action': 'presence', 'time': 1582529038.3718634, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 11593)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:23:58,381 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:23:58,416 Установлено соединение с ПК ('127.0.0.1', 11594)
+INFO       2020-02-24 10:23:59,417 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582529038.4168768, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 10:23:59,419 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001F369D41488>, {'action': 'presence', 'time': 1582529038.4168768, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 11594)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:23:59,423 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:18,048 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:18,051 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:18,053 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 10:40:18,056 Установлено соединение с ПК ('127.0.0.1', 12751)
+INFO       2020-02-24 10:40:18,099 Установлено соединение с ПК ('127.0.0.1', 12752)
+INFO       2020-02-24 10:40:18,099 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530018.055435, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 10:40:18,100 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002553571C8C8>, {'action': 'presence', 'time': 1582530018.055435, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12751)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:18,101 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:18,534 Установлено соединение с ПК ('127.0.0.1', 12750)
+INFO       2020-02-24 10:40:18,535 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530018.0983195, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 10:40:18,536 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002553571C8C8>, {'action': 'presence', 'time': 1582530018.0983195, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12752)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:18,537 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:19,537 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530018.5342555, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 10:40:19,539 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002553571C8C8>, {'action': 'presence', 'time': 1582530018.5342555, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12750)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:19,543 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:50,581 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:50,585 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:50,587 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 10:40:50,594 Установлено соединение с ПК ('127.0.0.1', 12772)
+INFO       2020-02-24 10:40:50,599 Установлено соединение с ПК ('127.0.0.1', 12773)
+INFO       2020-02-24 10:40:50,600 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530050.5945623, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 10:40:50,601 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000284D0C3F6C8>, {'action': 'presence', 'time': 1582530050.5945623, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12772)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:50,602 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:51,066 Установлено соединение с ПК ('127.0.0.1', 12771)
+INFO       2020-02-24 10:40:51,068 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530050.5995507, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 10:40:51,070 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000284D0C3F6C8>, {'action': 'presence', 'time': 1582530050.5995507, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12773)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:51,077 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:40:52,081 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530051.0667014, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 10:40:52,082 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000284D0C3F6C8>, {'action': 'presence', 'time': 1582530051.0667014, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12771)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:40:52,084 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:41:05,294 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:41:05,296 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:41:05,297 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 10:41:05,738 Установлено соединение с ПК ('127.0.0.1', 12795)
+INFO       2020-02-24 10:41:05,746 Установлено соединение с ПК ('127.0.0.1', 12796)
+INFO       2020-02-24 10:41:05,748 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530065.7374475, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 10:41:05,750 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002268ECBCDC8>, {'action': 'presence', 'time': 1582530065.7374475, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12795)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:41:05,759 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:41:05,761 Установлено соединение с ПК ('127.0.0.1', 12797)
+INFO       2020-02-24 10:41:05,767 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530065.7453604, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 10:41:05,771 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002268ECBCDC8>, {'action': 'presence', 'time': 1582530065.7453604, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12796)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:41:05,777 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:41:06,782 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530065.756326, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 10:41:06,784 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002268ECBCDC8>, {'action': 'presence', 'time': 1582530065.756326, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 12797)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:41:06,787 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:50:14,687 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:50:14,692 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:50:14,701 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 10:50:15,156 Установлено соединение с ПК ('127.0.0.1', 13041)
+INFO       2020-02-24 10:50:15,174 Установлено соединение с ПК ('127.0.0.1', 13042)
+INFO       2020-02-24 10:50:15,177 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530615.1564426, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 10:50:15,182 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001205BE5C148>, {'action': 'presence', 'time': 1582530615.1564426, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13041)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:50:15,190 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:50:15,201 Установлено соединение с ПК ('127.0.0.1', 13043)
+INFO       2020-02-24 10:50:15,203 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530615.1741939, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 10:50:15,205 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001205BE5C148>, {'action': 'presence', 'time': 1582530615.1741939, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13042)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:50:15,208 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:50:16,211 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530615.2011151, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 10:50:16,212 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001205BE5C148>, {'action': 'presence', 'time': 1582530615.2011151, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13043)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:50:16,215 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:50:58,730 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:50:58,733 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:50:58,734 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 10:50:58,762 Установлено соединение с ПК ('127.0.0.1', 13098)
+INFO       2020-02-24 10:50:58,814 Установлено соединение с ПК ('127.0.0.1', 13099)
+INFO       2020-02-24 10:50:58,815 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530658.762187, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 10:50:58,816 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001B17CD81448>, {'action': 'presence', 'time': 1582530658.762187, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13098)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:50:58,818 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:50:59,232 Установлено соединение с ПК ('127.0.0.1', 13097)
+INFO       2020-02-24 10:50:59,233 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530658.8140478, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 10:50:59,234 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001B17CD81448>, {'action': 'presence', 'time': 1582530658.8140478, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13099)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:50:59,236 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:51:00,237 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530659.232256, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 10:51:00,238 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001B17CD81448>, {'action': 'presence', 'time': 1582530659.232256, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13097)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:51:00,241 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:53:24,776 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:53:24,778 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:53:24,779 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 10:53:25,228 Установлено соединение с ПК ('127.0.0.1', 13344)
+INFO       2020-02-24 10:53:25,243 Установлено соединение с ПК ('127.0.0.1', 13345)
+INFO       2020-02-24 10:53:25,246 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530805.2272592, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 10:53:25,249 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001DE846DC148>, {'action': 'presence', 'time': 1582530805.2272592, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13344)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:53:25,254 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:53:25,270 Установлено соединение с ПК ('127.0.0.1', 13346)
+INFO       2020-02-24 10:53:25,271 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530805.24326, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 10:53:25,273 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001DE846DC148>, {'action': 'presence', 'time': 1582530805.24326, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13345)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:53:25,276 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:53:26,277 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582530805.2691827, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 10:53:26,279 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001DE846DC148>, {'action': 'presence', 'time': 1582530805.2691827, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 13346)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 10:53:26,283 Функция была вызвана из модуля main()
+INFO       2020-02-24 10:53:36,287 Клиент ('127.0.0.1', 13346)Отключился от сервера
+INFO       2020-02-24 10:53:38,289 Клиент ('127.0.0.1', 13345)Отключился от сервера
+INFO       2020-02-24 10:53:39,293 Клиент ('127.0.0.1', 13344)Отключился от сервера
+INFO       2020-02-24 11:08:09,734 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:09,745 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:08:09,746 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 11:08:10,230 Установлено соединение с ПК ('127.0.0.1', 14084)
+INFO       2020-02-24 11:08:10,235 Установлено соединение с ПК ('127.0.0.1', 14083)
+INFO       2020-02-24 11:08:10,248 Установлено соединение с ПК ('127.0.0.1', 14085)
+INFO       2020-02-24 11:08:10,250 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531690.2301135, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 11:08:10,251 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000029F311BCDC8>, {'action': 'presence', 'time': 1582531690.2301135, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14084)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:10,256 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:08:10,261 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531690.2301135, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 11:08:10,263 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000029F311BCDC8>, {'action': 'presence', 'time': 1582531690.2301135, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14083)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:10,265 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:08:11,268 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531690.2482903, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 11:08:11,269 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000029F311BCDC8>, {'action': 'presence', 'time': 1582531690.2482903, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14085)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:11,272 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:08:49,395 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:49,398 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:08:49,400 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 11:08:49,411 Установлено соединение с ПК ('127.0.0.1', 14089)
+INFO       2020-02-24 11:08:49,455 Установлено соединение с ПК ('127.0.0.1', 14090)
+INFO       2020-02-24 11:08:49,456 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531729.4110384, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 11:08:49,457 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001D44A981408>, {'action': 'presence', 'time': 1582531729.4110384, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14089)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:49,458 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:08:49,872 Установлено соединение с ПК ('127.0.0.1', 14088)
+INFO       2020-02-24 11:08:49,873 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531729.4559193, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 11:08:49,875 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001D44A981408>, {'action': 'presence', 'time': 1582531729.4559193, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14090)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:49,879 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:08:50,882 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531729.8720074, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 11:08:50,884 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001D44A981408>, {'action': 'presence', 'time': 1582531729.8720074, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14088)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:08:50,889 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:10:39,941 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:10:39,944 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:10:39,945 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 11:10:39,977 Установлено соединение с ПК ('127.0.0.1', 14132)
+INFO       2020-02-24 11:10:40,358 Установлено соединение с ПК ('127.0.0.1', 14130)
+INFO       2020-02-24 11:10:40,360 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531839.977396, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 11:10:40,362 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000020CF69BCE48>, {'action': 'presence', 'time': 1582531839.977396, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14132)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:10:40,367 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:10:40,374 Установлено соединение с ПК ('127.0.0.1', 14131)
+INFO       2020-02-24 11:10:40,377 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531840.358588, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 11:10:40,379 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000020CF69BCE48>, {'action': 'presence', 'time': 1582531840.358588, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14130)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:10:40,383 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:10:41,386 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582531840.3735476, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 11:10:41,388 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000020CF69BCE48>, {'action': 'presence', 'time': 1582531840.3735476, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 14131)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:10:41,390 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:22:57,442 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:22:57,444 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:22:57,445 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 11:22:57,880 Установлено соединение с ПК ('127.0.0.1', 15042)
+INFO       2020-02-24 11:22:57,904 Установлено соединение с ПК ('127.0.0.1', 15043)
+INFO       2020-02-24 11:22:57,906 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582532577.879171, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 11:22:57,909 Клиент ('127.0.0.1', 15042)Отключился от сервера
+INFO       2020-02-24 11:22:57,911 Установлено соединение с ПК ('127.0.0.1', 15044)
+INFO       2020-02-24 11:22:57,913 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582532577.9031413, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 11:22:57,915 Клиент ('127.0.0.1', 15043)Отключился от сервера
+INFO       2020-02-24 11:22:58,924 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582532577.9070637, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 11:22:58,924 Клиент ('127.0.0.1', 15044)Отключился от сервера
+INFO       2020-02-24 11:26:53,319 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:26:53,322 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:26:53,323 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 11:26:53,325 Установлено соединение с ПК ('127.0.0.1', 15250)
+INFO       2020-02-24 11:26:53,827 Установлено соединение с ПК ('127.0.0.1', 15248)
+INFO       2020-02-24 11:26:53,827 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582532813.3256047, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 11:26:53,827 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000015DBF031408>, {'action': 'presence', 'time': 1582532813.3256047, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15250)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:26:53,842 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:26:53,842 Установлено соединение с ПК ('127.0.0.1', 15249)
+INFO       2020-02-24 11:26:53,842 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582532813.827066, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 11:26:53,842 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000015DBF031408>, {'action': 'presence', 'time': 1582532813.827066, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15248)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:26:53,858 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:26:53,858 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582532813.827066, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 11:26:53,858 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000015DBF031408>, {'action': 'presence', 'time': 1582532813.827066, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15249)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:26:53,873 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:38:34,942 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:38:34,945 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:38:34,946 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 11:38:35,428 Установлено соединение с ПК ('127.0.0.1', 15738)
+INFO       2020-02-24 11:38:35,428 Установлено соединение с ПК ('127.0.0.1', 15737)
+INFO       2020-02-24 11:38:35,443 Установлено соединение с ПК ('127.0.0.1', 15739)
+INFO       2020-02-24 11:38:35,443 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582533515.428064, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 11:38:35,443 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000025A63071448>, {'action': 'presence', 'time': 1582533515.428064, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15738)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:38:35,443 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:38:35,443 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582533515.428064, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 11:38:35,443 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000025A63071448>, {'action': 'presence', 'time': 1582533515.428064, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15737)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:38:35,459 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:38:36,460 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582533515.4436855, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 11:38:36,462 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000025A63071448>, {'action': 'presence', 'time': 1582533515.4436855, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15739)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:38:36,466 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:40:00,827 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:40:00,827 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:40:00,827 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 11:40:00,858 Установлено соединение с ПК ('127.0.0.1', 15900)
+INFO       2020-02-24 11:40:01,316 Установлено соединение с ПК ('127.0.0.1', 15898)
+INFO       2020-02-24 11:40:01,318 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582533600.8587794, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 11:40:01,321 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000226AA151408>, {'action': 'presence', 'time': 1582533600.8587794, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15900)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:40:01,326 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:40:01,332 Установлено соединение с ПК ('127.0.0.1', 15899)
+INFO       2020-02-24 11:40:01,334 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582533601.3161812, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 11:40:01,336 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000226AA151408>, {'action': 'presence', 'time': 1582533601.3161812, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15898)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:40:01,340 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:40:01,347 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582533601.3191721, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 11:40:01,349 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000226AA151408>, {'action': 'presence', 'time': 1582533601.3191721, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 15899)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:40:01,351 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:56:57,910 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 11:56:57,914 Функция была вызвана из модуля main()
+INFO       2020-02-24 11:56:57,926 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 12:30:13,098 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:30:13,098 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:30:13,113 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 12:30:25,814 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:30:25,814 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:30:25,830 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 12:51:27,223 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:51:27,227 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:51:27,228 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 12:51:27,228 Установлено соединение с ПК ('127.0.0.1', 19993)
+INFO       2020-02-24 12:51:27,259 Установлено соединение с ПК ('127.0.0.1', 19994)
+INFO       2020-02-24 12:51:27,259 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582537887.228481, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 12:51:27,259 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000013CE6FB13C8>, {'action': 'presence', 'time': 1582537887.228481, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 19993)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:51:27,259 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:51:27,712 Установлено соединение с ПК ('127.0.0.1', 19992)
+INFO       2020-02-24 12:51:27,712 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582537887.2597232, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 12:51:27,712 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000013CE6FB13C8>, {'action': 'presence', 'time': 1582537887.2597232, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 19994)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:51:27,712 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:51:28,728 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582537887.7127833, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 12:51:28,728 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000013CE6FB13C8>, {'action': 'presence', 'time': 1582537887.7127833, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 19992)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:51:28,728 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:51:41,785 Разбираем сообщение от клиента: {'action': 'message', 'sender': 'VASYA', 'to': 'LYUBA', 'time': 1582537901.0287886, 'message_text': 'myaaaa'}
+INFO       2020-02-24 12:51:41,787 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000013CE6FB13C8>, {'action': 'message', 'sender': 'VASYA', 'to': 'LYUBA', 'time': 1582537901.0287886, 'message_text': 'myaaaa'}, <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 19994)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:51:41,793 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:51:41,795 Отправлено сообщение пользователю LYUBA от пользователя VASYA.
+INFO       2020-02-24 12:51:41,800 Сработала функция: process_message со следующими аргументами: (<__main__.Server object at 0x0000013CE6FB13C8>, {'action': 'message', 'sender': 'VASYA', 'to': 'LYUBA', 'time': 1582537901.0287886, 'message_text': 'myaaaa'}, [<socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 19993)>, <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 19994)>, <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 19992)>]), {}. Вызов из модуля __main__
+INFO       2020-02-24 12:51:41,806 Функция была вызвана из модуля main()
+INFO       2020-02-24 12:51:43,818 Клиент ('127.0.0.1', 19994)Отключился от сервера
+INFO       2020-02-24 12:51:45,828 Клиент ('127.0.0.1', 19992)Отключился от сервера
+INFO       2020-02-24 13:06:44,864 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:06:44,864 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:06:44,864 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 13:07:46,327 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:07:46,330 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:07:46,331 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 13:08:18,160 Установлено соединение с ПК ('127.0.0.1', 20402)
+INFO       2020-02-24 13:08:19,161 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582538898.159701, 'user': {'account_name': 'None'}}
+INFO       2020-02-24 13:08:19,177 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002026FC0CFC8>, {'action': 'presence', 'time': 1582538898.159701, 'user': {'account_name': 'None'}}, <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 20402)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:08:19,181 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:11:05,579 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:11:05,581 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:11:05,581 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 13:11:20,963 Установлено соединение с ПК ('127.0.0.1', 20705)
+INFO       2020-02-24 13:11:20,963 Установлено соединение с ПК ('127.0.0.1', 20706)
+INFO       2020-02-24 13:11:20,988 Установлено соединение с ПК ('127.0.0.1', 20707)
+INFO       2020-02-24 13:11:20,988 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539080.9630387, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 13:11:20,996 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001445E27CC88>, {'action': 'presence', 'time': 1582539080.9630387, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 20705)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:11:20,997 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:11:20,998 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539080.9630387, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 13:11:26,239 Клиент ('127.0.0.1', 20706)Отключился от сервера
+INFO       2020-02-24 13:11:27,240 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539080.9870296, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 13:11:32,500 Клиент ('127.0.0.1', 20707)Отключился от сервера
+INFO       2020-02-24 13:12:04,630 Разбираем сообщение от клиента: {'action': 'message', 'sender': 'EUGENE', 'to': 'LYUBA', 'time': 1582539124.6038306, 'message_text': 'hiii'}
+INFO       2020-02-24 13:12:04,630 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000001445E27CC88>, {'action': 'message', 'sender': 'EUGENE', 'to': 'LYUBA', 'time': 1582539124.6038306, 'message_text': 'hiii'}, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 20705)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:12:04,632 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:12:04,632 Связь с клиентом с именем LYUBA была потеряна
+INFO       2020-02-24 13:14:22,208 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:14:22,208 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:14:22,208 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 13:14:43,161 Установлено соединение с ПК ('127.0.0.1', 20985)
+INFO       2020-02-24 13:14:44,161 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539283.1611626, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 13:14:44,175 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002314850CC48>, {'action': 'presence', 'time': 1582539283.1611626, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 20985)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:14:44,178 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:15:05,541 Установлено соединение с ПК ('127.0.0.1', 21013)
+INFO       2020-02-24 13:15:06,552 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539305.5419636, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 13:15:11,789 Клиент ('127.0.0.1', 21013)Отключился от сервера
+INFO       2020-02-24 13:15:57,021 Клиент ('127.0.0.1', 20985)Отключился от сервера
+INFO       2020-02-24 13:22:05,877 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:22:05,880 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:22:05,881 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 13:22:05,931 Установлено соединение с ПК ('127.0.0.1', 21483)
+INFO       2020-02-24 13:22:06,363 Установлено соединение с ПК ('127.0.0.1', 21481)
+INFO       2020-02-24 13:22:06,363 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539725.931563, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 13:22:06,363 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002370A8A1408>, {'action': 'presence', 'time': 1582539725.931563, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21483)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:22:06,363 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:22:06,379 Установлено соединение с ПК ('127.0.0.1', 21482)
+INFO       2020-02-24 13:22:06,379 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539726.3638098, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 13:22:06,379 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002370A8A1408>, {'action': 'presence', 'time': 1582539726.3638098, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21481)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:22:06,379 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:22:07,379 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582539726.3793592, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 13:22:07,381 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002370A8A1408>, {'action': 'presence', 'time': 1582539726.3793592, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21482)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:22:07,385 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:29:06,201 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:29:06,217 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:29:06,217 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 13:29:06,232 Установлено соединение с ПК ('127.0.0.1', 21682)
+INFO       2020-02-24 13:29:06,688 Установлено соединение с ПК ('127.0.0.1', 21680)
+INFO       2020-02-24 13:29:06,688 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582540146.2328982, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 13:29:06,688 BLYIAAAAA
+INFO       2020-02-24 13:29:06,688 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000233ACD4CE08>, {'action': 'presence', 'time': 1582540146.2328982, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21682)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:29:06,688 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:29:06,735 Установлено соединение с ПК ('127.0.0.1', 21681)
+INFO       2020-02-24 13:29:06,735 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582540146.6887918, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 13:29:06,735 BLYIAAAAA
+INFO       2020-02-24 13:29:06,735 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000233ACD4CE08>, {'action': 'presence', 'time': 1582540146.6887918, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21680)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:29:06,735 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:29:07,736 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582540146.7357101, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 13:29:07,739 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x00000233ACD4CE08>, {'action': 'presence', 'time': 1582540146.7357101, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21681)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:29:07,743 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:30:16,833 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:30:16,849 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:30:16,849 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 13:30:16,880 Установлено соединение с ПК ('127.0.0.1', 21743)
+INFO       2020-02-24 13:30:16,880 Установлено соединение с ПК ('127.0.0.1', 21742)
+INFO       2020-02-24 13:30:16,943 Установлено соединение с ПК ('127.0.0.1', 21744)
+INFO       2020-02-24 13:30:16,943 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582540216.8808174, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 13:30:16,943 127.0.0.1, 21743
+INFO       2020-02-24 13:30:16,943 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000022A54AD3808>, {'action': 'presence', 'time': 1582540216.8808174, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21743)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:30:16,943 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:30:16,943 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582540216.8808174, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 13:30:16,943 127.0.0.1, 21742
+INFO       2020-02-24 13:30:16,943 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000022A54AD3808>, {'action': 'presence', 'time': 1582540216.8808174, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21742)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:30:16,943 Функция была вызвана из модуля main()
+INFO       2020-02-24 13:30:17,973 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582540216.9432745, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 13:30:17,973 127.0.0.1, 21744
+INFO       2020-02-24 13:30:17,973 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x0000022A54AD3808>, {'action': 'presence', 'time': 1582540216.9432745, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 21744)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 13:30:17,973 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:11:11,376 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:11:11,376 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:11:11,392 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 14:11:11,424 Установлено соединение с ПК ('127.0.0.1', 23925)
+INFO       2020-02-24 14:11:11,899 Установлено соединение с ПК ('127.0.0.1', 23924)
+INFO       2020-02-24 14:11:11,899 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582542671.4240463, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 14:11:11,899 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002773CA81408>, {'action': 'presence', 'time': 1582542671.4240463, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 23925)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:11:11,899 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:11:11,899 Установлено соединение с ПК ('127.0.0.1', 23923)
+INFO       2020-02-24 14:11:11,899 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582542671.8997316, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 14:11:11,899 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002773CA81408>, {'action': 'presence', 'time': 1582542671.8997316, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 23924)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:11:11,899 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:11:11,899 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582542671.8997316, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 14:11:11,899 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002773CA81408>, {'action': 'presence', 'time': 1582542671.8997316, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 23923)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:11:11,899 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:11:26,989 Разбираем сообщение от клиента: {'action': 'message', 'sender': 'VASYA', 'to': 'LYUBA', 'time': 1582542686.598291, 'message_text': 'myaaa'}
+INFO       2020-02-24 14:11:26,991 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002773CA81408>, {'action': 'message', 'sender': 'VASYA', 'to': 'LYUBA', 'time': 1582542686.598291, 'message_text': 'myaaa'}, <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 23925)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:11:26,994 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:11:26,996 Отправлено сообщение пользователю LYUBA от пользователя VASYA.
+INFO       2020-02-24 14:11:26,999 Сработала функция: process_message со следующими аргументами: (<__main__.Server object at 0x000002773CA81408>, {'action': 'message', 'sender': 'VASYA', 'to': 'LYUBA', 'time': 1582542686.598291, 'message_text': 'myaaa'}, [<socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 23925)>, <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 23924)>, <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 23923)>]), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:11:27,002 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:11:29,006 Клиент ('127.0.0.1', 23925)Отключился от сервера
+INFO       2020-02-24 14:11:31,013 Клиент ('127.0.0.1', 23923)Отключился от сервера
+INFO       2020-02-24 14:11:33,021 Клиент ('127.0.0.1', 23924)Отключился от сервера
+INFO       2020-02-24 14:52:25,257 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:52:25,257 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:52:25,257 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 14:52:25,741 Установлено соединение с ПК ('127.0.0.1', 26522)
+INFO       2020-02-24 14:52:25,741 Установлено соединение с ПК ('127.0.0.1', 26523)
+INFO       2020-02-24 14:52:25,757 Установлено соединение с ПК ('127.0.0.1', 26524)
+INFO       2020-02-24 14:52:25,757 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582545145.741786, 'user': {'account_name': 'LYUBA'}}
+INFO       2020-02-24 14:52:25,757 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002119ED68188>, {'action': 'presence', 'time': 1582545145.741786, 'user': {'account_name': 'LYUBA'}}, <socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 26522)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:52:25,757 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:52:25,757 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582545145.741786, 'user': {'account_name': 'VASYA'}}
+INFO       2020-02-24 14:52:25,757 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002119ED68188>, {'action': 'presence', 'time': 1582545145.741786, 'user': {'account_name': 'VASYA'}}, <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 26523)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:52:25,772 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:52:26,790 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582545145.7574072, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 14:52:26,790 Сработала функция: process_client_message со следующими аргументами: (<__main__.Server object at 0x000002119ED68188>, {'action': 'presence', 'time': 1582545145.7574072, 'user': {'account_name': 'EUGENE'}}, <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8888), raddr=('127.0.0.1', 26524)>), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:52:26,790 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:59:40,363 Сработала функция: parse_cmd_args со следующими аргументами: (), {}. Вызов из модуля __main__
+INFO       2020-02-24 14:59:40,365 Функция была вызвана из модуля main()
+INFO       2020-02-24 14:59:40,395 Сервер запущен на порту: 8888Адрес для подключения: 127.0.0.1Если не указан то принимаются любые сокеты
+INFO       2020-02-24 15:00:07,598 Установлено соединение с ПК ('127.0.0.1', 27172)
+INFO       2020-02-24 15:00:08,599 Разбираем сообщение от клиента: {'action': 'presence', 'time': 1582545607.5989928, 'user': {'account_name': 'EUGENE'}}
+INFO       2020-02-24 15:00:08,602 Клиент ('127.0.0.1', 27172)Отключился от сервера

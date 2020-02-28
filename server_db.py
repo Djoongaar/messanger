@@ -1,6 +1,6 @@
 import datetime
 
-from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, DateTime
+from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, DateTime, ForeignKey
 from sqlalchemy.orm import mapper, sessionmaker
 
 
@@ -43,9 +43,23 @@ class ServerDatabase:
                    f"from IP: {self.ip_address}:{self.port}, " \
                    f"login_time: {self.login_time:{time_format}}"
 
-    def __init__(self):
+    class UsersContacts:
+        def __init__(self, user_id, contact):
+            self.id = None
+            self.user_id = user_id
+            self.contact = contact
+
+    class UsersHistory:
+        def __init__(self, user_id):
+            self.id = None
+            self.user_id = user_id
+            self.sent = 0
+            self.accepted = 0
+
+    def __init__(self, path):
         # CREATE DATABASE ENGINE
-        self.database_engine = create_engine('sqlite:///declarative_style_base.db3', echo=False, pool_recycle=1800)
+        self.database_engine = create_engine(f'sqlite:///{path}', echo=False, pool_recycle=1800,
+                                             connect_args={'check_same_thread': False})
         self.metadata = MetaData()
 
         all_users_table = Table('all_users', self.metadata,
@@ -68,11 +82,24 @@ class ServerDatabase:
                                     Column('port', Integer),
                                     Column('login_time', DateTime)
                                     )
+        contacts_table = Table('contacts', self.metadata,
+                               Column('id', Integer, primary_key=True),
+                               Column('user', ForeignKey('all_users.id')),
+                               Column('contact', ForeignKey('all_users.id'))
+                               )
+        users_history_table = Table('history', self.metadata,
+                                    Column('id', Integer, primary_key=True),
+                                    Column('user', ForeignKey('all_users.id')),
+                                    Column('sent', Integer),
+                                    Column('accepted', Integer)
+                                    )
         # CREATE DATABASE TABLES
         self.metadata.create_all(self.database_engine)
         mapper(self.Users, all_users_table),
         mapper(self.ActiveUser, active_users_table),
-        mapper(self.LoginHistory, login_history_table)
+        mapper(self.LoginHistory, login_history_table),
+        mapper(self.UsersContacts, contacts_table),
+        mapper(self.UsersHistory, users_history_table)
 
         # CREATE SESSION
         Session = sessionmaker(bind=self.database_engine)
